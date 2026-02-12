@@ -46,7 +46,7 @@ The project includes:
 ✔ Dataset loaded using Pandas  
 ✔ Checked and handled missing values  
 ✔ Removed duplicates  
-✔ Encoded categorical variables (Label Encoding / One-Hot Encoding)  
+✔ Checked Outliers.  
 ✔ Scaled numerical features using **StandardScaler**  
 ✔ Split dataset into Training and Testing sets (80:20)  
 
