@@ -46,7 +46,7 @@ The project includes:
 ✔ Dataset loaded using Pandas  
 ✔ Checked and handled missing values  
 ✔ Removed duplicates  
-✔ Checked Outliers.  
+✔ Checked and removed Outliers.  
 ✔ Scaled numerical features using **StandardScaler**  
 ✔ Split dataset into Training and Testing sets (80:20)  
 
