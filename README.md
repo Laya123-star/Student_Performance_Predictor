@@ -76,7 +76,7 @@ EDA helped in:
 
 - **Random Forest Classifier** (best-performing model)  
 
-Other models may have been explored (SVM, Logistic Regression, Decision Tree) during experiments in **Colab notebook**.
+Other models may have been explored (SVM, Logistic Regression, Decision Tree, Naive Bayes, K-Nearest Neighbours) during experiments in **Colab notebook**.
 
 ---
 
