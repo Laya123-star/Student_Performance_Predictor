@@ -3,6 +3,14 @@
 A supervised machine learning web application built using **Streamlit** to predict the **final grade of students** based on study habits, attendance, motivation, learning style, and other educational features.
 
 ---
+# 🎓 Student Performance Predictor – Streamlit Deployment
+
+## 🚀 Live Streamlit App
+
+👉 **Click here to use the app:**  
+https://laya123-star-student-performance-predictor-app-o3lju5.streamlit.app/
+
+---
 
 ## 📘 Project Overview
 
