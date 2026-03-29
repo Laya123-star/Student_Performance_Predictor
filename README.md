@@ -32,13 +32,21 @@ This project builds and deploys a **Machine Learning Classification Model** to p
 The complete pipeline includes:
 
 * Data Cleaning
+  
 * Exploratory Data Analysis (EDA)
+
 * Feature Engineering
+  
 * Feature Scaling
+  
 * Feature Selection
+  
 * Model Building
+  
 * Hyperparameter Tuning
+  
 * Model Evaluation
+  
 * Model Deployment using Streamlit
 
 Users can input student details and get **real-time grade predictions**.
@@ -50,10 +58,15 @@ Users can input student details and get **real-time grade predictions**.
 The main objectives of this project are:
 
 🔹 Analyze student performance data
+
 🔹 Identify key factors affecting academic success
+
 🔹 Build multiple ML classification models
+
 🔹 Compare model performances
+
 🔹 Optimize the best model using hyperparameter tuning
+
 🔹 Deploy the model using Streamlit
 
 ---
@@ -74,10 +87,15 @@ The main objectives of this project are:
 The following preprocessing steps were performed:
 
 ✔ Loaded dataset using Pandas
+
 ✔ Handled missing values
+
 ✔ Removed duplicate records
+
 ✔ Detected and removed outliers
+
 ✔ Scaled numerical features using **StandardScaler**
+
 ✔ Split dataset into **Training (80%) and Testing (20%)**
 
 ---
@@ -87,10 +105,15 @@ The following preprocessing steps were performed:
 Visualizations used:
 
 * Histogram
+  
 * Box Plot
+  
 * Count Plot
+  
 * Heatmap Correlation
+  
 * Bar Plot
+  
 * KDE Plot
 
 ### Insights:
@@ -107,10 +130,15 @@ Visualizations used:
 The following models were trained and evaluated:
 
 * Decision Tree
+  
 * Random Forest
+  
 * k-Nearest Neighbors (k-NN)
+  
 * Support Vector Machine (SVM)
+  
 * Naive Bayes
+  
 * Logistic Regression
 
 ---
@@ -127,6 +155,7 @@ The following models were trained and evaluated:
 | Logistic Regression | 0.284    | 0.526   |
 
 ✅ **Best Model:** Decision Tree
+
 ❌ **Worst Model:** Logistic Regression
 
 ---
@@ -134,7 +163,9 @@ The following models were trained and evaluated:
 # ⚙️ Hyperparameter Tuning
 
 * Applied **GridSearchCV**
+  
 * Used **Pipeline** to avoid data leakage
+  
 * Tuned key parameters for better performance
 
 ---
@@ -153,6 +184,7 @@ The following models were trained and evaluated:
 🏆 **Best Model:** Random Forest Classifier
 
 * Accuracy: **90.1%**
+  
 * ROC-AUC: **0.986**
 
 ---
@@ -160,7 +192,9 @@ The following models were trained and evaluated:
 # 🏆 Final Model
 
 ✔ **Random Forest Classifier selected**
+
 ✔ Optimized using hyperparameter tuning
+
 ✔ Saved using Pickle for deployment
 
 ```python
@@ -174,11 +208,17 @@ pickle.dump(best_rf_model, open("Models/best_rf_model.pkl", "wb"))
 # 📊 Evaluation Metrics
 
 * Accuracy Score
+  
 * Confusion Matrix
+  
 * Precision
+  
 * Recall
+  
 * F1-Score
+  
 * ROC-AUC Score
+  
 * Feature Importance
 
 ---
@@ -190,8 +230,11 @@ The trained model is deployed using **Streamlit**.
 ### Features:
 
 ✔ User-friendly interface
+
 ✔ Real-time predictions
+
 ✔ Input student data easily
+
 ✔ Instant grade prediction output
 
 ---
@@ -199,9 +242,13 @@ The trained model is deployed using **Streamlit**.
 # ⚠️ Limitations
 
 * The model depends on the quality and completeness of the dataset
-* Limited features may not capture all real-world academic influences
+  
+* Limited features may not capture all real-world academic influence
+  
 * Performance may vary for students from different educational systems
+  
 * Does not include psychological or external environmental factors
+  
 * Model may not generalize well to unseen or highly imbalanced data
 
 ---
@@ -224,6 +271,7 @@ The trained model is deployed using **Streamlit**.
 # 📁 Repository Structure
 
 student-performance-predictor/
+
 │
 ├── app.py
 ├── Models/
@@ -273,8 +321,11 @@ Thanks to **Entri Elevate** for guidance and support in building this project.
 # 📌 Future Improvements
 
 * Add more student behavioral features
+  
 * Improve model generalization
+  
 * Deploy using Docker / Cloud platforms
+  
 * Add visualization dashboard
 
 ---
