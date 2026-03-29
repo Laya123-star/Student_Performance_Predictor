@@ -273,10 +273,15 @@ The trained model is deployed using **Streamlit**.
 student-performance-predictor/
 
 │
+
 ├── app.py
+
 ├── Models/
+
 │   └── best_rf_model.pkl
+
 ├── notebook.ipynb
+
 ├── README.md
 
 ---
