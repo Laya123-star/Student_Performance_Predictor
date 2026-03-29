@@ -312,7 +312,9 @@ streamlit run app.py
 # 👤 Author
 
 **Name:** Laya Mary Joy
+
 **Organization:** Entri Elevate
+
 **Date:** February 14, 2026
 
 ---
