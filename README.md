@@ -309,6 +309,10 @@ streamlit run app.py
 
 ---
 
+# 📌 Academic Submission
+
+This repository was developed as part of a **Machine Learning & Data Science program** to demonstrate data preprocessing, exploratory data analysis (EDA), model building, hyperparameter tuning, and deployment of a machine learning model using Streamlit for real-time student performance prediction.
+
 # 👤 Author
 
 **Name:** Laya Mary Joy
